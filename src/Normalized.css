@@ -566,8 +566,8 @@ template {
 	width: 100%;
 }
 .imgContact {
-	width: 20%;
-	height: 15%;
+	width: 30%;
+	height: 20%;
 	display: flex;
 	padding: 20px;
 	margin-right: 10px;
@@ -784,3 +784,15 @@ li {
 		flex-direction: row;
 	}
 }
+
+@media only screen and (max-width: 600px) {
+	.imgContact {
+		width: 40%;
+		height: 20%;
+		display: flex;
+		padding: 10px;
+		margin-right: 10px;
+		border-radius: 25px;
+	}
+}
+

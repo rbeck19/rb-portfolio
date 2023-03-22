@@ -1,4 +1,5 @@
 import React from 'react';
+import resume from "./resume.pdf"
 
 //import { Document, Page } from 'react-pdf';
 
@@ -10,7 +11,8 @@ import React from 'react';
 function Resume() {
 	return (
 		<>
-<div className='container'>
+		<iframe height="800px" width="100%" src={resume} />
+{/* <div className='container'>
 			<div className='card'>
 				<h2>SKILLS AND LANGUAGES</h2>
 				<article class='skills'>
@@ -129,100 +131,9 @@ function Resume() {
 					<p className='educationInfo'>Bachelors of Science Criminal Justice | New York, NY | May 2017</p>
 				</article>
 			</div>
-		</div>
+		</div> */}
 		</>
 	)
 }
 
 export default Resume;
-
-
-
-/*  
-
-		<div className='container'>
-			<div className='card'>
-				<h2>SKILLS AND LANGUAGES</h2>
-				<article class='skills'>
-					<section class='skill'> JavaScript </section>
-					<section class='skill'>NodeJS</section>
-					<section class='skill'>React Native</section>
-					<section class='skill'>HTML5</section>
-					<section class='skill'>CSS</section>
-					<section class='skill'>Redux</section>
-					<section class='skill'>React</section>
-					<section class='skill'>Express</section>
-					<section class='skill'>PostgresSQL</section>
-					<section class='skill'>JEST</section>
-					<section class='skill'>Formik</section>
-					<section class='skill'>YUP</section>
-				</article>
-			</div>
-			<div className='card'>
-				<h2>PROJECTS</h2>
-				<article class='project'>
-					<a className='linkProjects' href='https://github.com/Lambda-School-Labs/key-conservation-mobile'>
-						<h4>KEY CONSERVATION</h4>
-					</a>
-					<p className='projectInfo'>React Native | Expo | Redux | CSS </p>
-					<ul className='info'>
-						<li>
-							Key Conservation is a react native application that helps conservationists gain critical funding and
-							global support through a mobile app that provides real-time updates on day-to-day campaigns.
-						</li>
-						<li>
-							Collaborated with a React team of 7 and functioned as a Frontend Web Developer creating a connect feature
-							allowing supporters and conservationists the ability to follow each other, as well as updating the
-							Frontend with CSS.
-						</li>
-					</ul>
-					<a className='linkProjects' href='https://github.com/Spotify-Song-Suggester/Backend-SSS'>
-						<h4 className='project-title'>SPOTIFY SONG SUGGESTER</h4>
-					</a>
-					<p className='projectInfo'> Express | PostgresSQL | JEST | Insomnia | Knex </p>
-					<ul className='info'>
-						<li>
-							Spotify Song Suggester is a web application that retrieves Spotify data about songs the users input/search
-							for and displays important features of the song and other songs with similar features.
-						</li>
-						<li>
-							Developed an API as a Backend Engineer in a cross-functional environment for the Data Science team that
-							was utilized by the Frontend Team.
-						</li>
-					</ul>
-				</article>
-			</div>
-			<div className='card'>
-				<h2>EXPERIENCE</h2>
-				<article class='experience'>
-					<h4>TEAM LEAD / TEACHING ASSISTANT</h4>
-					<p className='experienceInfo'>Lambda School/Remote/October 2019-Present</p>
-					<ul className='responsibilities'>
-						<li>
-							Served as teaching assistant, leading a team of 10+ students in daily code challenges in JS and React
-						</li>
-						<li>
-							Fielded 100+ Slack messages from students weekly in order to provide daily feedback and issue resolution
-							of curriculum; utilized Zoom to explain concepts in more depth and provide live code reviews.
-						</li>
-						
-						</ul>
-						<h4>NON-TEACHING ADJUNCT</h4>
-						<p className='experienceInfo'>CUNY City College of NY/New York, NY/August 2018-December 2019</p>
-						<ul className='responsibilities'>
-							<li>Grading midterm and final exams from 150 students of the Anthropology 101 course.</li>
-						</ul>
-					</article>
-				</div>
-				<div className='card'>
-					<h2>EDUCATION</h2>
-					<article class='education'>
-						<h4>LAMBDA SCHOOL</h4>
-						<p className='educationInfo'>Full Stack Web Development/Remote/Endorsed May 2020</p>
-						<h4>CUNY City College of New York</h4>
-						<p className='educationInfo'>B.A Anthropology/New York, NY/May 2018</p>
-					</article>
-				</div>
-			</div>
-
-*/
