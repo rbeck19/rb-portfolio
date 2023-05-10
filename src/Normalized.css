@@ -527,7 +527,7 @@ template {
 	margin-bottom: 5px;
 }
 .projects:hover {
-	font-size: 1.6rem;
+	/* font-size: 1.6rem; */
 	text-decoration: underline;
 	/* background-color: #e05839;
 	color: #ffff;
@@ -537,7 +537,7 @@ template {
 }
 
 .resume:hover {
-	font-size: 1.6rem;
+	/* font-size: 1.6rem; */
 	text-decoration: underline;
 	/* background-color: #e05839;
 	color: #ffff;
@@ -546,7 +546,7 @@ template {
 	border-radius: 10px; */
 }
 .contact:hover {
-	font-size: 1.6rem;
+	/* font-size: 1.6rem; */
 	text-decoration: underline;
 	/* background-color: #e05839;
 	color: #ffff;
@@ -730,7 +730,7 @@ li {
 .buttonLink:hover {
 	background-color: #dcdcdc;
 	color: rgb(1, 1, 1);
-	font-size: 1.0rem;
+	/* font-size: 1.0rem; */
 }
 .projectDesc {
 	color: black;
@@ -755,9 +755,13 @@ li {
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 20px;
+	border-radius: 8px;
+	/* border: 5px solid transparent; */
 }
 .projectImages:hover {
-	width: 80%;
+	/* width: 80%; */
+	/* border: 5px solid rgb(89, 220, 161); */
+	box-shadow: rgba(89, 220, 161) 0px 0px 20px 8px;
 }
 .keyProjectImages {
 	width: 20%;
@@ -796,6 +800,9 @@ li {
 		padding: 10px;
 		margin-right: 10px;
 		border-radius: 25px;
+	}
+	.projectImages{
+		width: 80%;
 	}
 }
 
