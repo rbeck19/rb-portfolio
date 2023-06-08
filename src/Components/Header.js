@@ -9,7 +9,7 @@ const Header = () => {
 				<p>
 					Ryan Beck
 					<span className='title'>
-						<br /> Full Stack Web Developer
+						<br /> Software Engineer
 					</span>
 				</p>
 			</Link>

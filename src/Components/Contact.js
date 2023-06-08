@@ -6,7 +6,7 @@ const Contact = () => {
 		<div className='contactContainer'>
 			<img className='imgContact' src={Picture} alt='' />
 			<header className='contactHeader'>
-				<h4>FULL STACK WEB DEVELOPER</h4>
+				<h4>Software Engineer</h4>
 				<div className='social'>
 					<div className='item-contact'>
 						<i className='fas fa-phone-square-alt' />
