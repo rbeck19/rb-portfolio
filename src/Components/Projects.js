@@ -26,7 +26,7 @@ const Projects = () => {
 						favorite recipes and comment on recipes.
 					</p>
 					<p className='projectDesc'>
-						Collaborated with a team of 5 and functioned as a Fullstack Developer using React, MongoDb,
+						Collaborated with a team of 5 and functioned as a Fullstack Developer using React, Python, Django,
 						and implementing all CRUD endpoints (create, read, update, delete) that were received from the server side.
 						As well as implementing client-side authentication and authorization routes.
 					</p>
