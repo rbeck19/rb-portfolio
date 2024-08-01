@@ -13,7 +13,7 @@ const Projects = () => {
 		<div>
 			<div className='projectsContainer'>
 				<div className='projectsCard'>
-					<h1 className='projectsTitle'>Plate Pilot</h1>
+					<h1 className='projectsTitle'>Plate Pilott</h1>
 					<p className='projectStack'> React | MongoDb </p>
 					<a className='buttonLink' href='https://github.com/lucas-richards/23oct-hackathon-FrontEnd' target='_blank' rel="noopener noreferrer">
 						View Code
