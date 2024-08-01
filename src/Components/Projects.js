@@ -7,14 +7,30 @@ import bookshelfMain from "../img/bookshelf-main.png";
 import slotMachine from "../img/slot-machine.png";
 import petParent from "../img/pet-parent.png"
 import platePilot from "../img/plate-pilot.png"
+import xclaimPage from "../img/xclaim-page.png"
 
 const Projects = () => {
 	return (
 		<div>
 			<div className='projectsContainer'>
 				<div className='projectsCard'>
-					<h1 className='projectsTitle'>Plate Pilott</h1>
-					<p className='projectStack'> React | MongoDb </p>
+					<h1 className='projectsTitle'>Xclaim</h1>
+					<p className='projectStack'> React | Ruby | SQL | Tailwind</p>
+					<a className='buttonLink' href='http://staging.v2.x-claim.com/marketplace' target='_blank' rel="noopener noreferrer">
+						View Live
+					</a>
+					<p className='projectDesc'>
+					Created a new updated web application for Xclaim through Good Inc. The application is for users to view, buy and sell bankruptcy claims. The application features distinct admin and user views to manage and interact with the claims. Utilized AWS to securely manage and store all user-uploaded documents. 
+					</p>					
+					<div className='keyImages'>
+						<img className='projectImages' src={xclaimPage} alt='Xclaim Marketplace' />
+					</div>
+				</div>
+			</div>			
+			<div className='projectsContainer'>
+				<div className='projectsCard'>
+					<h1 className='projectsTitle'>Plate Pilot</h1>
+					<p className='projectStack'> React | MongoDb | React Native </p>
 					<a className='buttonLink' href='https://github.com/lucas-richards/23oct-hackathon-FrontEnd' target='_blank' rel="noopener noreferrer">
 						View Code
 					</a>
@@ -25,7 +41,13 @@ const Projects = () => {
 						Collaborated with UX designers and developers to create a MERN Stack website.
 					</p>
 					<p className='projectDesc'>
-					The application integrates the Yelp API to enhance the dining decision-making process. Leveraging the power of the Yelp API, the application offers users the ability to make randomized restaurant selections tailored to their preferences through a set of user-defined filters.					</p>					
+					The application integrates the Yelp API to enhance the dining decision-making process. Leveraging the power of the Yelp API, the application offers users the ability to make randomized restaurant selections tailored to their preferences through a set of user-defined filters.	
+					</p>
+					<p className='projectDescWithLink'>
+					This application was re-created as a mobile application using React Native with the code available on {' '}
+					<a className='link' href='https://github.com/rbeck19/plate-pilot-native' target='_blank' rel="noopener noreferrer">GitHib</a>.
+					</p>
+
 					<div className='keyImages'>
 						<img className='projectImages' src={platePilot} alt='Main page of pet parent' />
 					
