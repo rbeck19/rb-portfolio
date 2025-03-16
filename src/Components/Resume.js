@@ -1,6 +1,7 @@
 import React from 'react';
-import resumeXclaim from "./resumeXclaim.pdf"
-//import resume from "./resume.pdf"
+
+import resume from "./resume2025.pdf"
+
 
 //import { Document, Page } from 'react-pdf';
 
@@ -12,8 +13,8 @@ import resumeXclaim from "./resumeXclaim.pdf"
 function Resume() {
 	return (
 		<>
-		<iframe title="Ryan Beck Resume" height="800px" width="100%" src={resumeXclaim} />
-{/* <div className='container'>
+		<iframe title="Ryan Beck Resume" height="800px" width="100%" src={resume} />
+		{/* <div className='container'>
 			<div className='card'>
 				<h2>SKILLS AND LANGUAGES</h2>
 				<article class='skills'>

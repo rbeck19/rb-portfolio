@@ -8,10 +8,29 @@ import slotMachine from "../img/slot-machine.png";
 import petParent from "../img/pet-parent.png"
 import platePilot from "../img/plate-pilot.png"
 import xclaimPage from "../img/xclaim-page.png"
+import hopeReg from "../img/hope-registration-screen.png"
+import hopeMobile from "../img/hope-mobile-screen.png"
 
 const Projects = () => {
 	return (
 		<div>
+			<div className='projectsContainer'>
+				<div className='projectsCard'>
+					<h1 className='projectsTitle'>NYC Department of Homeless Services</h1>
+					<p className='projectStack'> React | React Native</p>
+					<p className='projectDesc'>
+						Maintained and enhanced a cross-platform application for assisting with homeless data management and assistance, utilizing React, React Native, and .NET Web Api. The application includes an admin dashboard, a user registration portal, and a mobile app for iOS and Android. 
+					</p>			
+					<div className='keyImages' style={{justifyContent:'space-between', width:'100%', flexWrap:'wrap'}}>
+						<img className='projectImages' style={{height:480, minWidth:'auto'}} src={hopeReg} alt='Hope Registration Screen' />
+						<img className='projectImages' style={{height:480,width:'auto'}} src={hopeMobile} alt='Hope Mobile Screen' />
+						
+					</div>
+					<div className='keyImages'>
+						
+					</div>
+				</div>
+			</div>	
 			<div className='projectsContainer'>
 				<div className='projectsCard'>
 					<h1 className='projectsTitle'>Xclaim</h1>
